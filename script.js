@@ -2,11 +2,11 @@ let coords
 
 
 window.onload = () => {
+    coords = document.getElementById("coords");
+
      getLocation();
      let places = staticLoadPlaces();
      renderPlaces(places);
-     //console.log("jesue");
-     coords = document.getElementById("coords");
 };
 
 
