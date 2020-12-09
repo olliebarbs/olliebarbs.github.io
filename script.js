@@ -16,6 +16,7 @@ function getLocation() {
 function showPosition(position) {
     console.log("lat - " + position.coords.latitude);
     console.log("lon - " + position.coords.longiude);
+    alert("hhehjklh";)
  }
 
 function staticLoadPlaces() {
