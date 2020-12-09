@@ -1,6 +1,6 @@
 let coords
-let latitude
-let longitude
+let userLat
+let userLon
 
 
 window.onload = () => {
@@ -22,11 +22,10 @@ function getLocation() {
   }
   
 function showPosition(position) {
-    latitude = position.coords.latitude;
-    longitude =  position.coords.longitude;
-    coords.innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
+    userLat = position.coords.latitude;
+    userLon =  position.coords.longitude;
+    coords.innerHTML = "Latitude: " + userLat + "<br>Longitude: " + userLat;
 
-    console.log("fhljhkj" + latitude + longitude);
  }
 
 function staticLoadPlaces() {
