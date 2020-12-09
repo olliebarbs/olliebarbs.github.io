@@ -6,6 +6,7 @@ window.onload = () => {
      let places = staticLoadPlaces();
      renderPlaces(places);
      //console.log("jesue");
+     coords.innerHTML = "nuthatch";
 };
 
 
