@@ -24,7 +24,7 @@ function getLocation() {
 function showPosition(position) {
     userLat = position.coords.latitude;
     userLon =  position.coords.longitude;
-    coords.innerHTML = "Latitude: " + userLat + "<br>Longitude: " + userLat;
+    coords.innerHTML = "User Latitude: " + userLat + "<br>User Longitude: " + userLat;
 
  }
 
