@@ -24,9 +24,9 @@ function getLocation() {
 function showPosition(position) {
     latitude = position.coords.latitude;
     longitude =  position.coords.longitude;
-    console.log(latitude);
-
     coords.innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
+
+    console.log("fhljhkj" + latitude + longitude);
  }
 
 function staticLoadPlaces() {
