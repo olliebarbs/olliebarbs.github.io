@@ -5,9 +5,10 @@ window.onload = () => {
      //console.log("jesue");
 };
 
-var coords = document.getElementById("coords");
+
 
 function getLocation() {
+    let coords = document.getElementById("coords");
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(showPosition);
     } else { 
