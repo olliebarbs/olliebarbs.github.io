@@ -1,7 +1,8 @@
 window.onload = () => {
+     getLocation();
      let places = staticLoadPlaces();
      renderPlaces(places);
-     getLocation();
+
 };
 
 
