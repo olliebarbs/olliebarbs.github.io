@@ -1,3 +1,6 @@
+let coords = document.getElementById("coords");
+
+
 window.onload = () => {
      getLocation();
      let places = staticLoadPlaces();
@@ -5,7 +8,7 @@ window.onload = () => {
      //console.log("jesue");
 };
 
-let coords = document.getElementById("coords");
+
 
 function getLocation() {
     if (navigator.geolocation) {
