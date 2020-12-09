@@ -2,7 +2,7 @@ window.onload = () => {
      getLocation();
      let places = staticLoadPlaces();
      renderPlaces(places);
-
+    console.log("jesue");
 };
 
 
