@@ -1,6 +1,6 @@
-let coords;
-let latitude;
-let longitude;
+let coords
+let latitude
+let longitude
 
 
 window.onload = () => {
@@ -24,6 +24,7 @@ function getLocation() {
 function showPosition(position) {
     latitude = position.coords.latitude;
     longitude =  position.coords.longitude;
+    console.log(latitude);
 
     coords.innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
  }
