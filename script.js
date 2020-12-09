@@ -2,7 +2,7 @@ window.onload = () => {
      getLocation();
      let places = staticLoadPlaces();
      renderPlaces(places);
-     console.log("jesue");
+     //console.log("jesue");
 };
 
 
@@ -15,8 +15,7 @@ function getLocation() {
   }
   
 function showPosition(position) {
-    console.log("lat - " + position.coords.latitude);
-    console.log("lon - " + position.coords.longitude);
+    console.log("lat - " + position.coords.latitude + "lon - " + position.coords.longitude);
     //alert("hhehjklh");
  }
 
