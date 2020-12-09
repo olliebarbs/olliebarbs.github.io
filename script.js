@@ -1,4 +1,6 @@
-let coords
+let coords;
+let latitude;
+let longitude;
 
 
 window.onload = () => {
