@@ -1,4 +1,4 @@
-let coords = 
+let coords
 
 
 window.onload = () => {
@@ -22,7 +22,7 @@ function getLocation() {
 function showPosition(position) {
     console.log("lat - " + position.coords.latitude);
     console.log("lon - " + position.coords.longitude);
-    // coords.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+    coords.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
  }
 
 function staticLoadPlaces() {
