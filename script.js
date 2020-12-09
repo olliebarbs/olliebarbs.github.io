@@ -5,19 +5,21 @@ window.onload = () => {
      //console.log("jesue");
 };
 
+var coords = document.getElementById("coords");
 
 function getLocation() {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(showPosition);
     } else { 
-      x.innerHTML = "Geolocation is not supported by this browser.";
+      coords.innerHTML = "Geolocation is not supported by this browser.";
     }
   }
   
 function showPosition(position) {
     console.log("lat - " + position.coords.latitude);
     console.log("lon - " + position.coords.longitude);
-    //alert("hhehjklh");
+    coords.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
  }
 
 function staticLoadPlaces() {
