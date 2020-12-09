@@ -1,4 +1,4 @@
-let coords = document.getElementById("coords");
+let coords = 
 
 
 window.onload = () => {
@@ -6,7 +6,7 @@ window.onload = () => {
      let places = staticLoadPlaces();
      renderPlaces(places);
      //console.log("jesue");
-     coords.innerHTML = "nuthatch";
+     coords = document.getElementById("coords");
 };
 
 
