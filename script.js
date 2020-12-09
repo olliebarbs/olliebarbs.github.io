@@ -22,9 +22,10 @@ function getLocation() {
   }
   
 function showPosition(position) {
-    console.log("lat - " + position.coords.latitude);
-    console.log("lon - " + position.coords.longitude);
-    coords.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+    latitude = position.coords.latitude;
+    longitude =  position.coords.longitude;
+
+    coords.innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
  }
 
 function staticLoadPlaces() {
