@@ -3,6 +3,20 @@ window.onload = () => {
      renderPlaces(places);
 };
 
+
+function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+      x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+  }
+  
+function showPosition(position) {
+    console.log("lat - " + position.coords.latitude);
+    console.log("lon - " + position.coords.longiude);
+ }
+
 function staticLoadPlaces() {
     return [
         {
