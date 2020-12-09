@@ -15,7 +15,8 @@ function getLocation() {
   }
   
 function showPosition(position) {
-    console.log("lat - " + position.coords.latitude + "lon - " + position.coords.longitude);
+    console.log("lat - " + position.coords.latitude);
+    console.log("lon - " + position.coords.longitude);
     //alert("hhehjklh");
  }
 
