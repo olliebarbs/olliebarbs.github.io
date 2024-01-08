@@ -1,5 +1,8 @@
 body {
-    font-family: "Times New Roman", Georgia, Serif;
+    font-family: "Helvetica", sans-serif;
+    margin: auto;
+    background-color:rgb(92, 92, 92);
+    color: rgb(230, 230, 230);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,6 +14,9 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 10px 0px 10px;
+    border-bottom-style: solid;
+    border-width: 1px;
 }
 
 .nav-links{
@@ -20,4 +26,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-links li{
     padding-left: 10px;
+}
+
+.wrapper{
+    padding: 0px 10px 0px 10px;
+    width: 100%;
 }
