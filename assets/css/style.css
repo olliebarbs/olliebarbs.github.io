@@ -1,8 +1,27 @@
+
+:root {
+    --text-color-dark: #000000;
+    --text-color-light: #ffffff;
+    
+    cursor: crosshair;
+}
+
+
 body {
     font-family: "Helvetica", sans-serif;
+    color: var(--text-color-light);
     margin: auto;
-    /* background-color:rgb(92, 92, 92); */
-    /* color: rgb(230, 230, 230); */
+}
+
+a {
+    color: var(--text-color-light);
+    text-decoration: none;
+}
+
+a:hover {
+    color:var(--text-color-light); 
+    text-decoration:underline;
+    cursor:pointer;  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10,11 +29,16 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 5px;
 }
 
+ul {
+    padding: 0px;
+}
+
+
 .nav-bar{
     position: fixed;
     top: 0;
     width: 100%;
-    
+    height: 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,12 +51,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-links{
     display: flex;
+    display: none;
+    /* padding-right: 20px; */
     list-style: none;
 }
 
 .nav-links li{
     padding-left: 10px;
 }
+
+.menu-button {
+    display: flex;
+    padding-right: 20px;
+}
+
+.menu-button:hover {
+    color:rgb(218, 218, 218);
+}
+
 
 .wrapper{
     margin: auto;
@@ -44,8 +80,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-content img{
-    max-width: 100%;
-    height: auto;
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
 
 
