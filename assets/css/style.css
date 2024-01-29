@@ -41,6 +41,11 @@ ul {
 	list-style: none;
 }
 
+img {
+	max-width: 100%;
+	display: block;
+}
+
 /* Nav Bar */
 .nav-bar {
 	z-index: 9999;
@@ -130,6 +135,7 @@ ul {
 .headline {
 	font-weight: normal;
 	font-size: 1.4rem;
+	text-wrap: balance;
 }
 
 .blurb-section  {
@@ -199,8 +205,6 @@ background-color: white;}
 }
 
 .project-content-img {
-	width: 100%;
-	height: 100%;
 	object-fit: cover;
 }
 
