@@ -41,7 +41,7 @@ ul {
 	list-style: none;
 }
 
-img {
+img, video {
 	max-width: 100%;
 	display: block;
 }
@@ -189,13 +189,18 @@ img {
 .project-content-block {
 	grid-column: 2/ 14;
 	margin-bottom: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .resize {
-background-color: white;}
+	background-color: white;
+}
 
 .resize img {
 	object-fit: scale-down;
+	max-height: 80vh;
 }
 
 .side-by-side {
@@ -254,8 +259,6 @@ background-color: white;}
 		font-size: 2rem;
 		padding-bottom: 1rem;
 	}
-
-
 }
 
 
