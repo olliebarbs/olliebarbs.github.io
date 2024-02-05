@@ -34,7 +34,9 @@ a:hover {
 	cursor: pointer;
 }
 
-h1, h2, h3, h4, h5, h6 {}
+h1, h2, h3, h4, h5, h6 {
+	color: var(--text-color-dark);
+}
 
 ul {
 	padding: 0px;
@@ -158,20 +160,6 @@ img, video {
 }
 
 
-/* .blurb-heading {
-	font-weight: bold;
-	font-size: 4rem;
-	line-height: 4.2rem;
-	padding: 20px 0px 20px 0px;
-	margin: auto;
-}
-
-.blurb-subheading {
-	font-size: 2rem;
-	font-weight: normal;
-	margin: auto;
-	padding-bottom: 1rem;
-} */
 
 .gallery-grid {
 	display: grid;
@@ -193,6 +181,11 @@ img, video {
 	align-items: center;
 	justify-content: center;
 }
+
+.vertical-video {
+	max-height: 90vh;
+}
+
 
 .resize {
 	background-color: white;
@@ -286,6 +279,8 @@ img, video {
 		grid-column: 4 / 12;
 		padding: 3rem 0 3rem 0;
 	}
+
+
 	
 }
 
@@ -307,6 +302,7 @@ img, video {
 		min-height: 28rem;
 
 	}
+
 
 
 }
