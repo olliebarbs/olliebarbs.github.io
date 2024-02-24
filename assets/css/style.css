@@ -218,6 +218,7 @@ img, video {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	height: 0;
+	width: 100%;
 }
 
 .video-embed-container iframe {
@@ -226,6 +227,13 @@ img, video {
 	left: 0;
 	width: 100%;
 	height: 100%;
+  }
+
+  .sketchfab-embed iframe{
+
+	width: 100%;
+	aspect-ratio: 16/9;
+
   }
 
 
